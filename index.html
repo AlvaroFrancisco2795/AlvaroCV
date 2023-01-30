@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Álvaro CV</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="/img/cv_102350.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <!--MENU ENCABEZADO-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Álvaro</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+
+            </div>
+
+        </header>
+    </div>
+
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="/img/70066942_2698224696856948_7334592393854844928_n.jpg" alt="">
+            </div>
+            <h1>ÁLVARO MORENO</h1>
+            <h2>Programador Full Stack</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/kease.alvaro/" target="_blank"><i
+                        class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/alvaromorenofer/?hl=es-la" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/%C3%A1lvaro-moreno-14b73723b/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Álvaro Moreno.</span> Soy una persona proactiva, con diversas competencias entre las que
+                destacan el trabajo en equipo, liderazgo, facilidad de aprendizaje, teniendo como pilar los valores
+                éticos de una persona de éxito. Poseo facilidad de expresión, optimismo y control ante todo tipo de
+                situaciones. Capacidad para adaptarme a las situaciones y trabajar bajo presión de manera responsable y
+                organizada.</p>
+
+            <div class="fila">
+                <!--datos personales-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            27-06-1995
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            (+54) 221 4546510
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            soyalvaromoreno@hotmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Calle 14 entre 42 y 43 La Plata, Argentina
+                        </li>
+
+
+                    </ul>
+                </div>
+
+                <!--intereses-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-motorcycle"></i>
+                            <span>MOTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-walking"></i>
+                            <span>CAMINAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera-retro"></i>
+                            <span>FOTOS</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+
+        </div>
+    </section>
+
+    <!--SECCION SKILLS-->
+    <section id="skills" class="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--Technical Skill-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--professional Skills-->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Liderazgo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--SECCION CURRICULUM-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h4>Front-end</h4>
+                        <span class="casa">Argentina Programa 4.0</span>
+                        <span class="fecha">2022-2023</span>
+                        <p>En este curso obtuve los conocimientos necesarios para iniciarme en el desarrollo
+                            Front-end, enfocándome en programación web. Exploré los procedimientos lógicos que se
+                            ponen en práctica al programar y adentrarte en Javascript, uno de los lenguajes más
+                            importantes en materia de desarrollo en la actualidad.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Full Stack Python</h4>
+                        <span class="casa">Codo a Codo 4.0</span>
+                        <span class="fecha">2022-2023</span>
+                        <p>Codo a Codo 4.0 es un Programa de enseñanza en Programación, destinado a personas jóvenes y
+                            adultas, que cuenten con título secundario. Tiene como objetivo brindar herramientas que
+                            faciliten la inserción laboral en el sector IT, necesarias para mejorar la empleabilidad de
+                            las personas.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Licenciatura en Informatica</h4>
+                        <span class="casa">UNLP</span>
+                        <span class="fecha">2022-Actualmente</span>
+                        <p>El perfil del graduado en la Licenciatura en Informática es el de un profesional con sólidos
+                            fundamentos teóricos de las Ciencias de la Computación y un enfoque orientado a la
+                            utilización de la tecnología informática.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia</h3>
+                    <div class="item der">
+                        <h4>Asesor Comercial</h4>
+                        <span class="casa">Distribuidora Almapo</span>
+                        <span class="fecha">2015-2017</span>
+                        <p>ALMAPO SRL es una empresa líder en la distribución de productos de consumo masivo,
+                            caracterizada por la excelencia en el servicio. Somos competitivos, exitosos, innovadores y
+                            con calidad humana, trabajamos unidos como un equipo comprometido para mantener y reforzar
+                            este liderazgo.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Asesor Comercial</h4>
+                        <span class="casa">Movistar Peru</span>
+                        <span class="fecha">2014-2015</span>
+                        <p>Movistar (oficialmente Telefónica del Perú SAA) es la filial de la multinacional de
+                            telecomunicaciones Telefónica en el Perú. Actualmente es la operadora de telefonía móvil con
+                            más clientes en Perú, lo
+                            que le da liderazgo en el mercado nacional y una posición de vanguardia en el lanzamiento
+                            de productos y servicios más innovadores en la telefonía móvil del mercado local.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Asesor Comercial</h4>
+                        <span class="casa">Consumo Masivo, Alicorp</span>
+                        <span class="fecha">2012-2014</span>
+                        <p>Alicorp (Alicorp S.A.A.) es una empresa de bienes de consumo peruana con operaciones en
+                            varios países de América.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--SECCION CONTACTO-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <!--FORMULARIO-->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefonico">
+                    <input type="text" placeholder="Direccion de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!--MAPA-->
+                <div class="col">
+                    <img src="/img/Captura.JPG" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Calle 14 entre 42 y 43 La Plata, Buenos Aires.
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: (+54) 221 4546510
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: soyalvaromoreno@hotmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/kease.alvaro/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/alvaromorenofer/?hl=es-la" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/%C3%A1lvaro-moreno-14b73723b/" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+
+</body>
+
+</html>
